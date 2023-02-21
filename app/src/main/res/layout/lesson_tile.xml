@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_margin="15dp">
+
+<TextView
+    android:id="@+id/lesson_tile_TXT_UserName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="24dp"
+    android:text="name"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:layout_margin="10dp"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/ic_calendar"
+        />
+
+    <TextView
+        android:id="@+id/lesson_tile_TXT_time"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:layout_weight="1"
+        android:textColor="@color/purple_500"
+        android:textSize="24dp" />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/phoneLine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/ic_phone"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textColor="@color/purple_500"
+        android:textSize="24dp" />
+</LinearLayout>
+
+<LinearLayout
+    android:id="@+id/dateLine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        app:srcCompat="@drawable/ic_credit_card"
+        />
+
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:textColor="@color/purple_500"
+        android:textSize="24dp" />
+</LinearLayout>
+
+
+</LinearLayout>
